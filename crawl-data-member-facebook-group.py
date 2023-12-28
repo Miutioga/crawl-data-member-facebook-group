@@ -20,12 +20,8 @@ txtPass.send_keys("[your_password]")
 
 # 2b. Submit form
 txtPass.send_keys(Keys.ENTER)
-
-
-# 3. Dừng chương trình 5 giây
 sleep(5)
 
-# 4. Đóng trình duyệt
 
 browser.get("https://www.facebook.com/groups/400575940667899/members")
 
